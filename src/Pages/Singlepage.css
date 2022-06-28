@@ -1,0 +1,114 @@
+.IMAGE{
+    width: 30rem;
+}
+.image-div{
+    margin: 6rem 0 0  6rem;
+}
+.Details-div{
+    
+    width: 50rem;
+    margin: 8rem  0 0 2rem;
+}
+.Single-Container{
+    display: flex;
+}
+.shirt-name{
+    width:50rem;
+   
+    font-size: 1.5rem;
+  margin: 4rem 0 0  8rem ;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color:rgb(217, 181, 117);
+}
+.shirt-price{
+    font-size: 1.8rem;
+    margin-bottom: 2.3rem;
+}
+.Size-P{
+    margin-top: 0.4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    color: blueviolet;
+    margin-left: 8rem;
+}
+.Size-Select{
+    width: 15rem;
+    font-size: 1.4rem;
+    border: 1px double;
+    padding: 0.5rem;
+    border: 1px solid gray;
+
+    margin-left: 8rem;
+
+}
+.cupon{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 17rem;
+    margin-left: 8rem;
+}
+.AddToBag{
+    margin: 2rem 0 0 8rem;
+    padding: 15px 25px;
+  font-size: 1rem;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  width: 18rem;
+
+}
+
+.AddToBag:hover{
+    background-color: #3e8e41
+}
+.AddToBag-clicks{
+    pointer-events: none;
+}
+
+
+.AddToWishlist{
+    margin: 1rem 0 0 8rem;
+    padding: 15px 25px;
+  font-size: 1rem;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  width: 18rem;
+}
+.AddToWishlist:hover{
+    background-color: #3e8e41
+}
+.AddToBag:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px); 
+}
+.AddToWishlist.active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.AddedToCart{
+    margin: 2rem 0 0 8rem;
+    padding: 15px 25px;
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+  font-size: 1.3rem;
+  outline: none;
+  color: #fff;
+  background-color: gray;
+  border: none;
+  border-radius: 15px;
+  
+  width: 18rem;
+}

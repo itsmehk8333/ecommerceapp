@@ -1,0 +1,47 @@
+.Container{
+    display: flex;
+    font-size: 1rem;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    color: black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  
+}
+.pants{
+    margin: 0 2rem 0 2rem;
+    cursor: pointer;
+}
+.shoes{
+    margin: 0 2rem 0 1rem;
+    cursor: pointer;
+}
+.cart-btn{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.cart-img{
+    width: 2.4rem;
+    height: 2.4rem;
+    padding: 1rem; 
+    margin: 0 1rem 0 1rem;
+    cursor: pointer;
+}
+.shirt{
+    margin-left: 35rem;
+    cursor: pointer;
+}
+@media screen and (min-width : 1700px) {
+.shirt{
+    margin-left: 20rem;
+}
+    
+}
+
+.signin{
+    cursor: pointer;
+}
+.Logo{
+    margin: 0 0 0 4rem;
+}
